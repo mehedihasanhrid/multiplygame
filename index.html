@@ -8,11 +8,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <form class="form" id="form">
+        <h1 class="gametitle">Multiplication Game</h1>
         <h4 class="score" id="score">Score: 0</h4>
         <h1 class="asked" id="question">What is Multiplication?</h1>
         <input type="text" class="input" id="input" placeholder="Enter your answer" autofocus autocomplete="off">
         <button type="submit" class="btn">Submit</button>
+        <div class="remain" id="time">Time: <span id="remainingTime">10</span> second Remaining</div>
+        <button type="text" class="start" id="start">Reset Score</button>
+
     </form>
+    <script src="script.js"></script>
 </body>
 </html>
